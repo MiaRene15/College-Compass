@@ -13,6 +13,7 @@
 		1814935B22B29384007E7F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814935A22B29384007E7F52 /* Assets.xcassets */; };
 		1814935E22B29384007E7F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814935C22B29384007E7F52 /* LaunchScreen.storyboard */; };
 		187DB8F022B2AC4300C8E014 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB8EF22B2AC4300C8E014 /* TableViewController.swift */; };
+		187DB8F422B2E38000C8E014 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB8F322B2E38000C8E014 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1814935D22B29384007E7F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1814935F22B29384007E7F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187DB8EF22B2AC4300C8E014 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		187DB8F322B2E38000C8E014 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				1814935322B29383007E7F52 /* AppDelegate.swift */,
 				1814935522B29383007E7F52 /* ViewController.swift */,
+				187DB8F322B2E38000C8E014 /* ViewController2.swift */,
 				187DB8EF22B2AC4300C8E014 /* TableViewController.swift */,
 				1814935722B29383007E7F52 /* Main.storyboard */,
 				1814935A22B29384007E7F52 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1814935622B29383007E7F52 /* ViewController.swift in Sources */,
+				187DB8F422B2E38000C8E014 /* ViewController2.swift in Sources */,
 				187DB8F022B2AC4300C8E014 /* TableViewController.swift in Sources */,
 				1814935422B29383007E7F52 /* AppDelegate.swift in Sources */,
 			);
