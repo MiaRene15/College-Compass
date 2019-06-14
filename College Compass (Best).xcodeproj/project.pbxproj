@@ -14,6 +14,11 @@
 		1814935E22B29384007E7F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814935C22B29384007E7F52 /* LaunchScreen.storyboard */; };
 		187DB8F022B2AC4300C8E014 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB8EF22B2AC4300C8E014 /* TableViewController.swift */; };
 		187DB8F422B2E38000C8E014 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DB8F322B2E38000C8E014 /* ViewController2.swift */; };
+		18EBAA7822B3E4C300E434AC /* SummerProgramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAA7722B3E4C300E434AC /* SummerProgramsTableViewController.swift */; };
+		18EBAA7A22B3E51400E434AC /* SummerProgramsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAA7922B3E51400E434AC /* SummerProgramsViewController.swift */; };
+		18EBAA7C22B3E5B200E434AC /* SP_SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAA7B22B3E5B200E434AC /* SP_SAButton.swift */; };
+		18EBAA7E22B3F02500E434AC /* ScholarshipsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAA7D22B3F02500E434AC /* ScholarshipsTableViewController.swift */; };
+		18EBAA8022B3F04100E434AC /* ScholarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBAA7F22B3F04100E434AC /* ScholarshipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		1814935F22B29384007E7F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187DB8EF22B2AC4300C8E014 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		187DB8F322B2E38000C8E014 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		18EBAA7722B3E4C300E434AC /* SummerProgramsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerProgramsTableViewController.swift; sourceTree = "<group>"; };
+		18EBAA7922B3E51400E434AC /* SummerProgramsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerProgramsViewController.swift; sourceTree = "<group>"; };
+		18EBAA7B22B3E5B200E434AC /* SP_SAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SP_SAButton.swift; path = "../../collegeCompass-Jessica/collegeCompass/SP_SAButton.swift"; sourceTree = "<group>"; };
+		18EBAA7D22B3F02500E434AC /* ScholarshipsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarshipsTableViewController.swift; sourceTree = "<group>"; };
+		18EBAA7F22B3F04100E434AC /* ScholarshipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScholarshipsViewController.swift; path = "../../Nasya Yes/college compass/ScholarshipsViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +71,12 @@
 				1814935322B29383007E7F52 /* AppDelegate.swift */,
 				1814935522B29383007E7F52 /* ViewController.swift */,
 				187DB8F322B2E38000C8E014 /* ViewController2.swift */,
+				18EBAA7F22B3F04100E434AC /* ScholarshipsViewController.swift */,
+				18EBAA7922B3E51400E434AC /* SummerProgramsViewController.swift */,
 				187DB8EF22B2AC4300C8E014 /* TableViewController.swift */,
+				18EBAA7722B3E4C300E434AC /* SummerProgramsTableViewController.swift */,
+				18EBAA7B22B3E5B200E434AC /* SP_SAButton.swift */,
+				18EBAA7D22B3F02500E434AC /* ScholarshipsTableViewController.swift */,
 				1814935722B29383007E7F52 /* Main.storyboard */,
 				1814935A22B29384007E7F52 /* Assets.xcassets */,
 				1814935C22B29384007E7F52 /* LaunchScreen.storyboard */,
@@ -141,7 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EBAA7A22B3E51400E434AC /* SummerProgramsViewController.swift in Sources */,
 				1814935622B29383007E7F52 /* ViewController.swift in Sources */,
+				18EBAA7E22B3F02500E434AC /* ScholarshipsTableViewController.swift in Sources */,
+				18EBAA8022B3F04100E434AC /* ScholarshipsViewController.swift in Sources */,
+				18EBAA7822B3E4C300E434AC /* SummerProgramsTableViewController.swift in Sources */,
+				18EBAA7C22B3E5B200E434AC /* SP_SAButton.swift in Sources */,
 				187DB8F422B2E38000C8E014 /* ViewController2.swift in Sources */,
 				187DB8F022B2AC4300C8E014 /* TableViewController.swift in Sources */,
 				1814935422B29383007E7F52 /* AppDelegate.swift in Sources */,
@@ -291,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D47RVFU4R9;
+				DEVELOPMENT_TEAM = Z2B725GNJW;
 				INFOPLIST_FILE = "College Compass (Best)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mia.College-Compass--Best-";
+				PRODUCT_BUNDLE_IDENTIFIER = "mia-College-Compass-Best";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,13 +329,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D47RVFU4R9;
+				DEVELOPMENT_TEAM = Z2B725GNJW;
 				INFOPLIST_FILE = "College Compass (Best)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mia.College-Compass--Best-";
+				PRODUCT_BUNDLE_IDENTIFIER = "mia-College-Compass-Best";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
